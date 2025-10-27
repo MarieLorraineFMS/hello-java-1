@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Test {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    	Scanner sc = new Scanner(System.in);
 	String oddOrEven = ""; // Part : 2.2
 	boolean isInteger = false; //Part : 2.3
         int number = 0;
@@ -81,7 +81,7 @@ public class Test {
         oddOrEven = (number % 2 == 0) ? "pair" : "impair";
 
         if (number > 0) {
-            System.out.println("Votre nombre est positif et " + oddOrEven);
+            System.out.println("Votre nombre est positif et  " + oddOrEven);
         } else if (number == 0) {
             System.out.println("Votre nombre est égal à zéro.");
         } else {
