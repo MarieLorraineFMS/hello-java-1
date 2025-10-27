@@ -81,7 +81,7 @@ public class Test {
         oddOrEven = (number % 2 == 0) ? "pair" : "impair";
 
         if (number > 0) {
-            System.out.println("Votre nombre est positif et  " + oddOrEven);
+            System.out.println("Votre nombre est positif et " + oddOrEven);
         } else if (number == 0) {
             System.out.println("Votre nombre est égal à zéro.");
         } else {
